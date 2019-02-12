@@ -22,5 +22,5 @@ class ByPassCSRFDjango():
 
 
 
-result = ByPassCSRFDjango().bypass("http://localhost:8000/login/")
-print(result)
+ByPassCSRFDjango().bypass("http://localhost:8000/login/")
+
